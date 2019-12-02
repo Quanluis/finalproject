@@ -4,8 +4,15 @@
 }
 h1{
     text-align: center;
-    margin-top: 1em;
+    margin-top: .3em;
     color: yellowgreen;
+}
+.cutekappa {
+    width: 40%;
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+    border-radius: 1rem;
 }
 ul {
     list-style: none;
@@ -27,4 +34,22 @@ li a {
 }
 li a:hover {
     background-color: yellowgreen;
+}
+.created {
+    text-decoration: none;
+    color: white;
+}
+b {
+    color: yellowgreen;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    color: white;
 }
