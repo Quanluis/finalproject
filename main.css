@@ -7,12 +7,33 @@ h1{
     margin-top: .3em;
     color: yellowgreen;
 }
+h2 {
+    margin: .3em;
+    color: yellowgreen;
+}
+h3 {
+    margin: .3em;
+}
+.history {
+    margin: .3em;
+}
 .cutekappa {
     width: 40%;
     margin: auto;
     display: block;
     border: 3px solid black;
     border-radius: 1rem;
+}
+.pics {
+    width: 30%;
+}
+.kappn {
+    width: 20%;
+}
+.gallary {
+    width: 25%;
+    margin: auto;
+    display: block;
 }
 ul {
     list-style: none;
@@ -53,3 +74,15 @@ footer {
     background-color: rgb(24, 23, 23);
     color: white;
 }
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 1em;
+  }
