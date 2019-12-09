@@ -1,125 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 main {
-    margin: 1em;
+  margin: 1em;
 }
-h1{
-    text-align: center;
-    margin-top: .3em;
-    color: yellowgreen;
+h1 {
+  text-align: center;
+  margin-top: 0.3em;
+  color: yellowgreen;
 }
 h2 {
-    margin: .3em;
-    color: yellowgreen;
+  margin: 0.3em;
+  color: yellowgreen;
 }
 h3 {
-    margin: .3em;
+  margin: 0.3em;
 }
 p {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 .linksh3 {
-    text-align: center;
-    padding: 1.2em;
+  text-align: center;
+  padding: 1.2em;
 }
 
 figcaption {
-    text-align: center;
-    font-size: 1.3em;
-    color: cornflowerblue;
+  text-align: center;
+  font-size: 1.3em;
+  color: cornflowerblue;
 }
 .cutekappa {
-    width: 40%;
-    margin: auto;
-    display: block;
-    border: 3px solid black;
-    border-radius: 1rem;
+  width: 40%;
+  margin: auto;
+  display: block;
+  border: 3px solid black;
+  border-radius: 1rem;
 }
 .pics {
-    width: 30%;
+  width: 30%;
 }
 .kappn {
-    width: 20%;
+  width: 20%;
 }
 .gallary {
-    width: 25%;
-    margin: auto;
-    display: block;
+  width: 25%;
+  margin: auto;
+  display: block;
 }
 .links {
-    text-align: center;
+  text-align: center;
 }
-.linkkappa{
-    width: 30%;
-    margin: auto;
-    display: block;
+.linkkappa {
+  width: 30%;
+  margin: auto;
+  display: block;
 }
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 li {
-    float: left;
+  float: left;
 }
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    font-size: 1.5em;
-    padding: .3em .32em;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.3em 0.32em;
+  text-decoration: none;
 }
 li a:hover {
-    background-color: yellowgreen;
+  background-color: yellowgreen;
 }
 ol a {
-    padding: 1em;
+  padding: 1em;
 }
 .center {
-   text-align: center;
-   font-size: 1.3em;
-   color: black;
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .icon {
-    text-align: center;
-    margin: auto;
-    display: block;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 .created {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 b {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 footer {
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    text-decoration: none;
-    font-size: 1.2em;
-    width: 100%;
-    background-color: rgb(24, 23, 23);
-    color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-decoration: none;
+  font-size: 1.2em;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  color: white;
 }
 .column {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    margin: 1em;
-  }
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 1em;
+}
