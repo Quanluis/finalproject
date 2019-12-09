@@ -2,10 +2,23 @@
     margin: 0;
     padding: 0;
 }
+main {
+    margin: 1em;
+}
 h1{
     text-align: center;
     margin: 1em;
+    font-size: 2.5em;
+    position: absolute;
     color: yellowgreen;
+}
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+h2 {
+    margin: .2em;
 }
 ul {
     list-style: none;
